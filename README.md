@@ -18,10 +18,7 @@ Welcome to the Log Viewer project! This application provides a simple web-based 
 - Access to a `.env` file for environment variables (see [Configuration](#configuration))
 
 ### Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd log-viewer
+1. Clone the repository
 2. Install dependencies:
   ```bash
   npm install
