@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Log Viewer</h1>
+  </header>
+  <main>
+    <section id="logSearch">
+      <h2>Search Logs</h2>
+      <form id="searchForm">
+        <label for="level">Level:</label>
+        <input type="text" id="level" name="level">
+        <br>
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message">
+        <br>
+        <label for="resourceId">Resource ID:</label>
+        <input type="text" id="resourceId" name="resourceId">
+        <br>
+        <label for="timestamp_st">Start Timestamp:</label>
+        <input type="text" id="timestamp_st" name="timestamp_st">
+        <br>
+        <label for="timestamp_end">End Timestamp:</label>
+        <input type="text" id="timestamp_end" name="timestamp_end">
+        <br>
+        <label for="traceId">Trace ID:</label>
+        <input type="text" id="traceId" name="traceId">
+        <br>
+        <label for="spanId">Span ID:</label>
+        <input type="text" id="spanId" name="spanId">
+        <br>
+        <label for="commit">Commit:</label>
+        <input type="text" id="commit" name="commit">
+        <br>
+        <label for="parentResourceId">Parent Resource ID:</label>
+        <input type="text" id="parentResourceId" name="metadata.parentResourceId">
+        <br>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section id="logResults">
+      <h2>Log Results</h2>
+      <div id="logList">
+        <!-- Log results will be displayed here dynamically -->
+      </div>
+    </section>
+  </main>
+</body>
+</html>
