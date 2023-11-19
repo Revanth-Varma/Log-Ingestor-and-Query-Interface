@@ -25,17 +25,18 @@ Welcome to the Log Viewer project! This application provides a simple web-based 
 2. Install dependencies:
   ```bash
   npm install
+  ```
 3. Run the server:
   ```bash
   npm start
-
+  ```
 ### Configuration
 Create a .env file in the project root with the following content:
   ```bash
   MONGODB_URI=<your-mongodb-uri>
   PORT=<desired-port>
   JWT_SECRET_KEY=<your-secret-key>
-
+  ```
 ## System Design
 The system is divided into several components:
 
