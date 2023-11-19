@@ -51,9 +51,9 @@ The system is divided into several components:
 - **models:** Contains Mongoose models for User and Logs.
 
 ## Features
-1. ### Log Ingestion (/inject):
+1. ### Log Ingestion (/injest):
 
-- **Endpoint:** POST /inject
+- **Endpoint:** POST /injest
 - Allows the ingestion of logs into the MongoDB database.
 2. ### Log Searching (/search):
 
