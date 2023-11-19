@@ -39,25 +39,25 @@ The system is divided into several components:
 
 ### Backend (Node.js and Express):
 
-- ** index.js: ** The main server file that handles log ingestion, log searching, and serves the HTML frontend.
-- ** middleware.js: ** Contains middleware functions for checking user authentication and access permissions.
-- ** services.js: ** Implements services for data injection and log querying.
-- ** utils.js: ** Provides utility functions for token creation and verification.
+- **index.js:** The main server file that handles log ingestion, log searching, and serves the HTML frontend.
+- **middleware.js:** Contains middleware functions for checking user authentication and access permissions.
+- **services.js:** Implements services for data injection and log querying.
+- **utils.js:** Provides utility functions for token creation and verification.
 ### Frontend (HTML):
 
-- ** index.html: ** A simple HTML file with a form for log searching and a section to display log results.
+- **index.html:** A simple HTML file with a form for log searching and a section to display log results.
 ### Database (MongoDB):
 
-- ** models: ** Contains Mongoose models for User and Logs.
+- **models:** Contains Mongoose models for User and Logs.
 
 ## Features
 1. ### Log Ingestion (/inject):
 
-- ** Endpoint: ** POST /inject
+- **Endpoint:** POST /inject
 - Allows the ingestion of logs into the MongoDB database.
 2. ### Log Searching (/search):
 
-- ** Endpoint: ** POST /search
+- **Endpoint:** POST /search
 - Requires user authentication and checks access permissions based on user roles.
 - Supports various search parameters like level, message, resourceId, timestamp, commit, spanId, traceId, and metadata.parentResourceId.
 3. ### User Authentication:
